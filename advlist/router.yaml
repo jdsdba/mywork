@@ -1,0 +1,15 @@
+def listdevices(myrouters)
+# myrouters[routers]
+# for router in myrouters[routers]
+
+# This structure is called "myrouters"
+routers:
+  - name: cisco_nxos
+    ipaddr: 10.1.0.1
+  - name: arista
+    ipaddr: 10.2.0.1
+  - name: cisco
+    ipaddr: 10.3.0.1
+  - name: juniper
+    ipaddr: 10.4.0.1
+   

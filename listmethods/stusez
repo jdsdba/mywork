@@ -1,0 +1,18 @@
+proto:
+ - name: ssh
+   port: 22
+
+ - name: http
+   port: 80
+
+ - name: https
+   port: 443
+
+ - name: dns
+   port: 53
+
+ - name: sip
+   port: 5060
+
+ 
+
