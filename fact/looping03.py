@@ -5,8 +5,13 @@ import uuid
 howmany = int(input("How many UUIDs should be generated? "))
 
 print("Generating UUIDs...")
-
+nums = []
 # range is required because an int cannot be looped
 for rando in range(howmany):
-    print( uuid.uuid4() )
+    newid = uuid.uuid4()
+    if newid in nums:
+        print(f'{newid} already exists')
+    nums.append(newid)
+    #print( newid )
+    #print(nums)
 
